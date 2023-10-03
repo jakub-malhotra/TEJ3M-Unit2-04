@@ -30,27 +30,27 @@ void loop()
 
 {
 
+  digitalWrite(13, HIGH);
+
+  digitalWrite(12, LOW);
+
+  digitalWrite(11, LOW);
+
+  delay(1000); // Wait for 1000 millisecond(s)
+
+  digitalWrite(12, LOW);
+
   digitalWrite(11, HIGH);
 
-  digitalWrite(12, LOW);
-
   digitalWrite(13, LOW);
 
   delay(1000); // Wait for 1000 millisecond(s)
 
   digitalWrite(11, LOW);
+
+  digitalWrite(13, LOW);
 
   digitalWrite(12, HIGH);
-
-  digitalWrite(13, LOW);
-
-  delay(1000); // Wait for 1000 millisecond(s)
-
-  digitalWrite(11, LOW);
-
-  digitalWrite(12, LOW);
-
-  digitalWrite(13, HIGH);
 
   delay(1000); // Wait for 1000 millisecond(s)
 
@@ -58,18 +58,26 @@ void loop()
 
   digitalWrite(11, HIGH);
 
-  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH);
 
-  digitalWrite(13, LOW);
+  digitalWrite(12, LOW);
 
   delay(1000); // Wait for 1000 millisecond(s)
 
-  digitalWrite(11, LOW);
+  digitalWrite(13, LOW);
 
   digitalWrite(12, HIGH);
 
-  digitalWrite(13, HIGH);
+  digitalWrite(11, HIGH);
 
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(11, LOW);
+  
+  digitalWrite(12, HIGH);
+  
+  digitalWrite(13, HIGH);
+  
   delay(1000); // Wait for 1000 millisecond(s)
 
   digitalWrite(11, HIGH);
